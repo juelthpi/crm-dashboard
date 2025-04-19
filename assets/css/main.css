@@ -61,7 +61,7 @@ input:focus {
 p {
   font-size: 18px;
   line-height: 30px;
-  color: #475569;
+  color: #020817;
 }
 .container {
   max-width: 1420px;
@@ -93,7 +93,7 @@ h6 {
 .common-heading-section h1 {
   font-size: 60px;
   color: #0f172a;
-  font-weight:600;
+  font-weight: 600;
 }
 .text-color-4755 {
   color: #475569;
@@ -222,6 +222,27 @@ h6 {
 .outline-btn svg {
   width: 16px;
 }
+.card-icon i {
+  color: var(--purple-night);
+  font-size: 32px;
+}
+.card-icon {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  display: flex;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--purple-night);
+}
+.card-body {
+  border-color: var(--purple-night) !important;
+  box-shadow: rgba(166, 98, 255, 0.2) 0px 8px 24px;
+}
+.card-title {
+  font-weight: 500;
+}
 .outline-btn:hover,
 .outline-btn.active {
   color: #fff;
@@ -241,6 +262,7 @@ input[type="checkbox"]:checked {
   border-radius: 10px;
   box-shadow: 0px 1px 2px 0px rgba(15, 22, 36, 0.06),
     0px 1px 3px 0px rgba(15, 22, 36, 0.1);
+  height: 100vh;
 }
 .custom-table {
   border-radius: 5px;
@@ -329,7 +351,7 @@ input[type="checkbox"]:checked {
 .login-left-area-inner .common-heading-section p {
   font-size: 24px;
   font-weight: 500;
-  color: #0F172A;
+  color: #0f172a;
   /* letter-spacing:0.5px; */
 }
 .logo {
@@ -354,7 +376,7 @@ input[type="checkbox"]:checked {
   color: #475569;
   display: inline-block;
   margin-bottom: 6px;
-  font-weight:500;
+  font-weight: 500;
 }
 .title {
   color: var(--dark-night);
@@ -469,6 +491,36 @@ input[type="checkbox"]:checked {
 .mobile-bar {
   display: none;
 }
+.g-5 {
+  gap: 5px;
+}
+.user-icon {
+  padding: 2px 6px;
+}
+.user-icon p {
+  font-weight: 500;
+  font-size: 14px;
+}
+.user-icon img {
+  width: 25px;
+}
+.dropdown-menu {
+  min-width: 190px;
+}
+.dropdown-menu li a i {
+  font-size: 14px;
+}
+.dropdown-menu li a {
+  color: #000;
+  padding: 4px 11px;
+  border-bottom: 0.5px solid #dddddd;
+  width: 100%;
+  transition: 0.5s;
+  font-size: 18px;
+}
+.dropdown-menu li a:hover {
+  background-color: #9682f7;
+}
 /* Dashboard end */
 .angle {
   pointer-events: none;
@@ -488,4 +540,17 @@ input[type="checkbox"]:checked {
   font-weight: 500;
   font-size: 18px;
   padding: 6px 14px;
+}
+
+.footer-section {
+  border-top: 1px solid rgb(224, 223, 223);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f8f9fd;
+  padding: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.footer ul li p {
+  color: var(--dark-light);
 }
